@@ -1,6 +1,6 @@
 #include "../include/transaction.h"
 #include <iostream>
-#include <iomanip>  // Для форматирования времени
+#include <iomanip> 
 #include <chrono>
 
 Transaction::Transaction(const Card& sender, const Card& receiver, double amount, const std::string& message)
